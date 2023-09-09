@@ -1,0 +1,853 @@
+body {
+    color: #ffffff;
+    background-color: #1d1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #998e8e;
+}
+
+header img:hover {
+    border: 5px solid goldenrod;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #5bbe42;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: rgb(51, 255, 0);
+}
+
+.link1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+.link1:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.c {
+    color: red;
+}
+
+.cor1 {
+    color: red;
+}
+
+.cor2 {
+    color: yellow;
+}
+
+.cor3 {
+    color: blue;
+}
+
+.mexer {
+    color: black;
+    background-color: rgb(218, 218, 5);
+    border-radius: 8px;
+    font-size: 45px;
+    padding: 34px;
+    
+}
+
+.img1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35pt;
+}
+
+.img1:hover {
+    color: red;
+}
+
+.as {
+    background-color: chartreuse;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.as:hover {
+    cursor: pointer;
+    background-color: rgb(153, 153, 152);
+}
+
+.gimp {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35pt;
+}
+
+.gimp:hover {
+    color: rgb(33, 7, 58);
+}
+
+.g {
+    background-color: cadetblue;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.g:hover {
+    cursor: pointer;
+    background-color: sandybrown;
+}
+
+.primeiro:hover {
+    color: #04DB4A;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.primeiro2:hover {
+    color:#3039DB;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.primeiro3:hover {
+    color: #1ADB59;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.primeiro4:hover {
+    color:#DB0904;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.primeiro5:hover {
+    color: #DBB41F;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.segundo:hover {
+    color:#741585;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.segundo2:hover {
+    color: #300238;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.segundo3:hover {
+    color:#a01db8;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.segundo4:hover {
+    color: #310938;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.segundo5:hover {
+    color: #b000d1;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.terceiro:hover {
+    color: #FF3111;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.terceiro2:hover {
+    color: #C63DE0;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.terceiro3:hover {
+    color: #4F63F7;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.terceiro4:hover {
+    color: #3DE0D9;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.terceiro5:hover {
+    color: #4CF843;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quarta:hover {
+    color: #B59A3F;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quarta2:hover {
+    color: #756429;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quarta3:hover {
+    color: #F5D056;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quarta4:hover {
+    color: #362D13;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quarta5:hover {
+    color: #DBBB4D;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quinta:hover {
+    color: #72F562;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quinta2:hover {
+    color: #4AF5A8;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quinta3:hover {
+    color: #F5D056;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quinta4:hover {
+    color: #F53DB5;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.quinta5:hover {
+    color: #F56149;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.sexto:hover {
+    color: #7d66f2;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.sexto2:hover {
+    color: #006100;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.sexto3:hover {
+    color: #27a624;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.sexto4:hover {
+    color: #f28735;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.sexto5:hover {
+    color: #a6612d;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.setima:hover {
+    color: #55FAE7;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.setima2:hover {
+    color: #32615B;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.setima3:hover {
+    color: #18C74F;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.setima4:hover {
+    color: #D54F8A;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.setima5:hover {
+    color: #FA05EB;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.loco {
+    background-color:  rgb(0, 0, 0);
+    color:rgb(16, 0, 240);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loco:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 221);
+    color: black;
+}
+
+.loco1 {
+    background-color:  rgb(255, 255, 255);
+    color:rgb(16, 0, 240);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loco1:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 221);
+    color: black;
+}
+
+.locor {
+    background-color:  rgb(0, 0, 0);
+    border-radius: 9px;
+    width: 100%;
+}
+
+.locor:hover {
+    cursor: pointer;
+    background-color:  rgb(255, 0, 221);
+    color: black;
+}
+
+.locor1 {
+    background-color:  #ffffff;
+    border-radius: 9px;
+    width: 100%;
+}
+
+.locor1:hover {
+    cursor: pointer;
+    background-color:  rgb(255, 0, 221);
+    color: black;
+}
+
+.h {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.h:hover {
+    cursor: pointer;
+    background-color: rgb(255, 119, 0);
+}
+
+.j {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34pt;
+}
+
+.j:hover {
+    color: aqua;
+}
+
+.ç {
+    background-color: rgb(16, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.ç:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 191);
+}
+
+.mudar {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34pt;
+}
+
+.mudar:hover {
+    color: rgb(9, 255, 0);
+}
+
+
+.icD1 {
+    background-color: rgb(36, 1, 70);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.icD2 {
+    background-color: rgb(50, 30, 68);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.icD3 {
+    background-color: rgb(156, 81, 226);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.icD4 {
+    background-color: rgb(132, 0, 255);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.icD5 {
+    background-color: rgb(83, 0, 161);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.icD1:hover {
+    background-color: rgb(150, 115, 182);
+    cursor: pointer;
+}
+
+.icD2:hover {
+    background-color: rgb(236, 114, 0);
+   cursor: pointer;
+}
+
+.icD3:hover {
+    background-color: rgb(106, 236, 0);
+    cursor: pointer;
+}
+
+.icD4:hover {
+    background-color: rgb(0, 236, 216);
+    cursor: pointer;
+}
+
+.icD5:hover {
+    background-color: rgb(0, 16, 236);
+    cursor: pointer;
+}
+
+
+.canva {
+    color: red;
+    text-decoration: underline;
+}
+
+.canva:hover {
+    cursor: pointer;
+    color: #ffae00;
+    font-size: 22px;
+}
+
+.imgOriginal {
+    background-color: rgb(124, 4, 108);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc1 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc2 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc3 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc4 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc5 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc6 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc7 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc8 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc9 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc10 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc11 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc12 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc13 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgIc14 {
+    background-color: rgb(122, 0, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgCompleta {
+    background-color: rgb(0, 236, 79);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgOriginal:hover {
+    background-color: rgb(7, 0, 63);
+    cursor: pointer;
+}
+
+.imgIc1:hover {
+    background-color: rgb(0, 236, 204);
+    cursor: pointer;
+}
+
+.imgIc2:hover {
+    background-color: rgb(236, 94, 0);
+    cursor: pointer;
+}
+
+.imgIc3:hover {
+    background-color: rgb(0, 236, 71);
+    cursor: pointer;
+}
+
+.imgIc4:hover {
+    background-color: rgb(236, 0, 0);
+    cursor: pointer;
+}
+
+.imgIc5:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.imgIc6:hover {
+    background-color: rgb(102, 89, 48);
+    cursor: pointer;
+}
+
+.imgIc7:hover {
+    background-color: rgb(4, 0, 236);
+    cursor: pointer;
+}
+
+.imgIc8:hover {
+    background-color: rgb(100, 0, 0);
+    cursor: pointer;
+}
+
+.imgIc9:hover {
+    background-color: rgb(160, 31, 102);
+    cursor: pointer;
+}
+
+.imgIc10:hover {
+    background-color: rgb(97, 68, 124);
+    cursor: pointer;
+}
+
+.imgIc11:hover {
+    background-color: rgb(53, 107, 104);
+    cursor: pointer;
+}
+
+.imgIc12:hover {
+    background-color: rgb(115, 121, 31);
+    cursor: pointer;
+}
+
+.imgIc13:hover {
+    background-color: rgb(73, 40, 1);
+    cursor: pointer;
+}
+
+.imgIc14:hover {
+    background-color: rgb(34, 77, 17);
+    cursor: pointer;
+}
+
+.imgCompleta:hover {
+    background-color: rgb(224, 86, 162);
+    cursor: pointer;
+}
+
+.pDoP:hover {
+    color: blue;
+    font-size: 19px;
+}
+
+.nomesCores {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nomesCores:hover {
+    color: #00fff2;
+}
+
+.lg1 {
+    background-color: rgb(0, 149, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lg2 {
+    background-color: rgb(0, 4, 236);
+    border-radius: 12px;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lg1:hover {
+    background-color: #111010;
+    cursor: pointer;
+}
+
+.lg2:hover {
+    background-color: #4d0202;
+    cursor: pointer;
+}
+
+.logotipo1:hover {
+    color: #00fff2;
+}
+
+.logotipo2:hover {
+    color: #00ff15;
+}
+
+.doNada {
+    font-size: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.doNada:hover {
+    color: #000;
+    cursor: pointer;
+    font-size: 32pt;
+}
+
+.Completa {
+    font-size: 30pt;
+}
+
+.Completa:hover {
+    cursor: pointer;
+    color: #000;
+    font-size: 32pt;
+}
+
+.Origianl {
+    font-size: 30pt;
+}
+
+.Original:hover {
+    cursor: pointer;
+    color: #000;
+    font-size: 32pt;
+}
+
+.oQue {
+    font-size: 30pt;
+}
+
+.oQue:hover {
+    cursor: pointer;
+    color: #000;
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-style: oblique;
+    background: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pesquisa {
+    color: #ffffff;
+    font-size: 19pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jgm {
+    color: #ffffff;
+    font-size: 19pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quiz {
+    color: #ffffff;
+    font-size: 19pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+summary {
+    font-size: 20px;
+}
+
+summary:hover {
+    color: red;
+    cursor: pointer;
+}

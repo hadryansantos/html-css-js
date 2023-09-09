@@ -1,0 +1,138 @@
+:root {
+  --primary: #4900f2;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+  
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+  
+#event-subscription {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../Imagens/tela\ tcc.png");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+  
+#disclaimer h2,
+#disclaimer .event-date {
+  color: var(--primary);
+}
+  
+#disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+  
+#disclaimer .about-event {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+#disclaimer .event-date {
+  font-weight: bold;
+}
+a {
+  font-size: 15px;
+  text-decoration: none;
+}
+  
+a:hover {
+  color: red;
+  background-color: grey;
+  opacity: 4;
+}
+  
+.btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+  
+.btn:hover {
+  opacity: 4;
+  color: red;
+}
+
+.btn1 {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+  
+.btn1:hover {
+  opacity: 4;
+  color: red;
+  background-color: var(--primary);
+  font-size: 16px;
+}
+ 
+.p2 {
+  color: #fff;
+}
+
+.p2:hover {
+  cursor: auto;
+  color: white;
+  background-color: transparent;
+}
+
+.container{
+  text-decoration: dashed;
+}
+
+.container:hover {
+  color: aqua;
+  background-color: transparent;
+}
+
+#footer {
+  text-align: center;
+  color: var(--secondary);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#footer span {
+  font-weight: bold;
+}
